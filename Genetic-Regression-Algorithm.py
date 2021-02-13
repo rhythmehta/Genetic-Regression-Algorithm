@@ -194,7 +194,9 @@ print("The best solution is", best_solution)
 print("with error equal to approximately", B(best_solution))
 
 
-# - This main part of program connects the functions we defined above, by randomly selecting the initial population, then selecting survivors from each generations to move further by calculating their fitness after which as the time passes the survivors undergo evolutionary steps like of crossover children generation and mutations which further passes to next generation. Lastly, it outputs best solution in the population we obtain as parameters after all the iterations are completed.
+# - This main part of program connects the functions we defined above, by randomly selecting the initial population, then selecting survivors from each generations to move
+# further by calculating their fitness after which as the time passes the survivors undergo evolutionary steps like of crossover children generation and mutations which further 
+# passes to next generation. Lastly, it outputs best solution in the population we obtain as parameters after all the iterations are completed.
 
 # In[9]:
 
