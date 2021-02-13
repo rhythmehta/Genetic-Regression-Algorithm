@@ -43,7 +43,8 @@ def A():
 
 
 # ### Function A
-# - initializes the population of solutions for genetic algorithm, called parent generation with initial_pop_size agents, each with chromosome_length values, this is important as the evolution will happen within this population
+# - initializes the population of solutions for genetic algorithm, called parent generation with initial_pop_size agents, each with chromosome_length values, this is 
+#   important as the evolution will happen within this population
 # - generates a list of 5000 evenly spaced values ranging from -1 to 80 and selects initial_pop_size * chromosome length values as the initial population.
 # - takes no inputs, the knowledge of initial population size and length of each solution is required, and outputs the NumPy array of initial population.
 
@@ -61,7 +62,8 @@ def B(coefficients):
 
 
 # ### Function B
-# - calculates the average cost (fitness value) on all training data which is helpful to evaluate parameter efficiency, we seek to minimize cost hence increasing fitness level. This follows the rule of evolution i.e. survival of the fittest, those with higher fitness level have higher chance of reproductive ability
+# - calculates the average cost (fitness value) on all training data which is helpful to evaluate parameter efficiency, we seek to minimize cost hence increasing fitness 
+#   level. This follows the rule of evolution i.e. survival of the fittest, those with higher fitness level have higher chance of reproductive ability.
 # - iterates over data to compare the expected value calculated with the x with model y = ax + b, then we square the cost and average it over length of data.
 # - takes two coefficients as inputs in list form and outputs average cost i.e. the fitness
 
